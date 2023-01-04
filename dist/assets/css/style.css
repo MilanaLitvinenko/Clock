@@ -27,7 +27,7 @@ body {
 }
 
 .header {
-    background-color: rgb(223, 162, 230);
+    background-color: rgb(255, 255, 255);
     font-family: "PT Sans Narrow", sans-serif;
 }
 
@@ -43,4 +43,37 @@ img {
     max-width: 1140pxpx;
     margin: 0 auto;
     padding: 0px 20px;
+}
+
+.header {
+    height: 126px;
+    margin: 0 auto;
+}
+
+.header_top {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+}
+
+.top-header_content_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu_list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menuli {
+    flex: 0 1 33.333%;
+}
+
+.top-header_logo {
+    align-self: flex-start;
+    padding: 25px 0px 0px 0px;
+    flex: 0 0 190px;
+    text-align: center;
 }
