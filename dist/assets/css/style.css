@@ -23,11 +23,11 @@ body {
 .wrapper {
     width: 1200px;
     margin: 0 auto;
-    background-color: rgb(249, 249, 223);
+    background-color: rgb(162, 181, 195);
 }
 
 .header {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(90, 109, 124);
     font-family: "PT Sans Narrow", sans-serif;
 }
 
@@ -46,20 +46,38 @@ img {
 }
 
 .header {
-    height: 126px;
+    height: 100px;
     margin: 0 auto;
 }
 
 .header_top {
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(90, 109, 124);
+    height: 100px;
+}
+
+@media (max-width: 400px) {
+    .header_top {
+        background-color: rgb(87, 55, 61);
+    }
 }
 
 .top-header_content_container {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    height: 100px;
+}
+
+.top-header_column-wrapper {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.top-header_column-nav {
+    flex: 0 50%;
+    padding: 17px 0px;
 }
 
 .menu_list {
@@ -68,12 +86,85 @@ img {
 }
 
 .menuli {
-    flex: 0 1 33.333%;
+    flex: 0 1 33.2%;
+    list-style: none;
+}
+
+.menuli a {
+    text-decoration: none;
+    color: black;
+    padding: 2px;
+    display: inline-flex;
+    transition: 1s;
+}
+
+.menu_link {
+    width: 99px;
+    height: 27px;
+}
+
+.menuli a:hover {
+    text-decoration: none;
+    color: deeppink;
 }
 
 .top-header_logo {
     align-self: flex-start;
-    padding: 25px 0px 0px 0px;
     flex: 0 0 190px;
     text-align: center;
+}
+
+.top-header_column-logo {
+    display: flex;
+    width: 31%;
+}
+
+.top-header_column-phone {
+    display: flex;
+    flex: 1;
+}
+
+.top-header_column-nav {
+    flex: 0 43.4%;
+}
+
+.top-header_contacts {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.contacts-header_column {
+    display: flex;
+    justify-content: center;
+    flex: 0 50%;
+}
+
+.contacts-header_column:first-child {
+    border-right: 1px solid white;
+    flex: 0 40%;
+}
+
+.contacts-header_icon {
+    background: url(../img/phone\ icon.png) left no-repeat;
+}
+
+.footer {
+    margin: 0 auto;
+    width: 300px;
+    background-color: rgb(94, 190, 108);
+    height: 300px;
+}
+
+.imgph {
+    width: 20px;
+    height: 20px;
+}
+
+.bottom-header_container {
+    display: flex;
+}
+
+.bottom-header_column {
+    flex: 0 1 50%;
 }
