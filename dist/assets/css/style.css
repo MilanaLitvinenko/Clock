@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Impact", sans-serif;
+    src: url(../fonts/PT_Sans_Narrow.zip);
+}
+
 html {
     box-sizing: border-box;
 }
@@ -29,6 +34,10 @@ body {
 
 .header {
     padding-top: 25px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    background: linear-gradient(180deg, #828282 0%, rgba(217, 217, 217, 0) 100%);
 }
 
 .nav {
@@ -43,6 +52,14 @@ body {
     list-style-type: none;
 }
 
+.menu-list {
+    padding-left: 25px;
+}
+
+.menu-right {
+    padding-right: 80px;
+}
+
 .menu-link {
     color: #363636;
     font-size: 16px;
@@ -50,8 +67,52 @@ body {
 
 .promo {
     background-image: url(../img/promo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .promo__inner {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
     min-height: 100vh;
+    text-align: center;
+}
+
+.title {
+    font-family: "Impact", sans-serif;
+    font-weight: 400;
+    font-size: 76px;
+    letter-spacing: 0.02em;
+    margin-bottom: 15px;
+}
+
+.subtitle {
+    font-family: "Impact", sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    border-bottom: 1px solid #040404;
+    margin-bottom: 10px;
+    margin: -9px 0px 0px 0px;
+    align-self: center;
+}
+
+.subtitle span {
+    display: block;
+    font-size: 34px;
+    color: rgb(131, 17, 183);
+    padding: 10px 0;
+}
+
+.promo__text {
+    font-size: 16px;
+    color: #363636;
+    margin-bottom: 10px;
+}
+
+.promo__arrow {
+    margin-top: auto;
+    margin-bottom: 30px;
+    align-self: center;
 }
