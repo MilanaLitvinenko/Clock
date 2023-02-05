@@ -132,6 +132,7 @@ body{
 .info__part{
     padding-top: 100px;
     display: flex;
+    justify-content: space-between;
 }
 
 .info__part--third{
@@ -158,4 +159,79 @@ body{
 .info__text{
     flex-basis: 440px;
     margin-bottom: 30px;
+}
+
+b.info__text{
+    margin: 13px 0px 0px 0px;
+}
+
+.info__part-img{
+    object-fit: cover;
+    width: 961px;
+}
+
+.info__part-img{
+    object-fit: cover;
+    width: 961px;
+}
+
+.info__content{
+    flex-basis: 415px;
+}
+
+.info__part--second .info__text{
+    max-width: 352px;
+}
+
+.info__part--third .info__text{
+    max-width: 377px;
+}
+
+.info__table{
+    flex-basis: 450px;
+    border-bottom: 1px solid #000;
+    position: relative;
+    top: 20px;
+
+}
+
+.info__table::before{
+    content: '';
+    border-top: 1px solid #000;
+    position: absolute;
+    width: 100%;
+    top: -10px;
+}
+
+.info__table tr{
+    padding-bottom: 20px;
+}
+
+.track__img{
+    width: 961px;
+}
+
+.track{
+    padding-bottom: 90px;
+    background-image: url(../img/lamborghini-pep.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.track__title{
+    padding-top: 50px;
+    // padding-bottom: 30px;
+    font-size: 32px;
+    font-weight: 300;
+}
+
+.track__text{
+    max-width: 435px;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
 }
