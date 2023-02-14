@@ -24,22 +24,13 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
-        <link rel="preconnect" href="https://fonts.
-        googleapis.com">
-        <link rel="preconnect" href="https://fonts.
-        gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?
-        family=Roboto+Condensed:ital,wght@0,300;0,400;0,
-        700;1,400&display=swap"
-         rel="stylesheet">
-         <link
-         rel="stylesheet"
-         href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
-         />
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+        <link rel="stylesheet" type="text/html" href="./assets/scss/style.scss">
     </head>
     <body>
-    
             <header class="header"> 
                 <div class="big-container">
                     <nav class="nav">
@@ -240,7 +231,8 @@
                                         </p>
                                     </div>
                                 </div>
-                                <img class="evo-black__img" src="./assets/img/evocar2.png" alt="Hurican Super Trofeo Evo">
+                                <!-- <img class="evo-black__img" src="./assets/img/evocar2.png" alt="Hurican Super Trofeo Evo"> -->
+                                <img class="evo-black__img" src="./assets/img/pink.png" alt="Hurican Super Trofeo Evo">
                                 <dl class="evo__descr-list">
                                     <div>
                                     <dd>ПЕРЕМЕЩЕНИЕ</dd>
@@ -292,61 +284,69 @@
                         </div>
                     </div>
                 </section>
-                <section class="blog">
-                    <div class="container">
-                      <h3 class="blog__title">
-                        БЛОГ
-                      </h3>
-                    <div class="blog__slider swiper">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide blog__item">
-                                <img class="blog__item-img" src="./assets/img/whitelambo.jpg" alt="">
-                                <h4 class="blog__item-title">
-                                    НЕЛЬСОН ПИКЕ СТАЛ ПОБЕДИТЕЛЕМ ГРАНД-ФИНАЛА В ПОРТИМАНЕ
-                                </h4>
-                                <p class="blog__item-text">
-                                    Нельсон Пике-младший из Ansa Motorsports обеспечил возвращение
-                                    титула Lamborghini Super Trofeo Grand Finals в Северную
-                                    Америку впервые с 2017 года после победы и второе место в паре
-                                    50-минутных гонок на Autodrono Nacionale do Algarve a
-                                    Портимане . Между тем, титул Рго-Am был подорван, поскольку Брайан 
-                                    Ортис и Себастьян Карасо
-                                </p>
-                                 <a href="#" class="blog__item-link">читать подробнее...</a>
-                            </div>
-                            <div class="swiper-slide blog__item">
-                                <img class="blog__item-img" src="./assets/img/green.jpg" alt="">
-                                <h4 class="blog__item-title">
-                                    ГРАНД-ФИНАЛ. ДЕНЬ 1
-                                </h4>
-                                <p class="blog__item-text">
-                                    утренний дождь означал, что мокрая гонка была объявлена до 
-                                    старта, и перед большинством экипажей стоял выбор: 
-                                    использовать слики или мокрые шины. Большинство участников 
-                                    предпочли мокрую трассу, но поулист Спинелли начал гонку на 
-                                    сликах и сразу же поплатился за это. Huracan I° 61 опустился вниз, 
-                                    заняв всего 28-е место, поскольку
-                                </p>
-                                 <a href="#" class="blog__item-link">читать подробнее...</a>
-                            </div>
-    
-                          </div>
-                          <div class="swiper-button-prev">
-                            <img src="./assets/img/arrow-left.png" alt="">
-                          </div>
-                          <div class="swiper-button-next">
-                            <img src="./assets/img/arrow-right.png" alt="">
-                          </div>
-                        </div>
-    
-    
-                  </div>
-                </section>
             </main>
+            <footer class="footer">
+                <div class="container">
+                    <h3 class="footer__title">
+                        Контакты
+                    </h3>
+                    <div class="footer__top">
+                        <ul class="footer__info">
+                            <li>
+                                <dl>
+                                    <dt>ОБЩЕЕ</dt>
+                                    <dd><a href="tel:+351282402600">+(351) 282 402 600</a></dd>
+                                    <dd><a href="tel:+351282402697">+(351) 282 402 697</a></dd>
+                                    <dd><a href="mailto:info@autodromodoalgarve.com">info@autodromodoalgarve.com</a></dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>БИЛЕТЫ</dt>
+                                    <dd><a href="tel:+351282402600">+(351) 282 402 600</a></dd>
+                                    <dd><a href="mailto:ticket@autodromodoalgarve.com">ticketautodromodoalgarve.com</a></dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <ul class="social-list">
+                                    <li class="social-list__item">
+                                        <a class="social-list__link" href="#">
+                                            <img class="social-list__icon" src="./assets/img/youtube.png" alt="">
+                                        </a>
+                                    </li>
+                                    <li class="social-list__item">
+                                        <a class="social-list__link" href="#">
+                                            <img class="social-list__icon" src="./assets/img/insta.png" alt="">
+                                        </a>
+                                    </li>
+                                    <li class="social-list__item">
+                                        <a class="social-list__link" href="#">
+                                            <img class="social-list__icon" src="./assets/img/facebook.png" alt="">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <div class="footer__address">
+                            <p class="footer__address-title">
+                                АДРЕС
+                            </p>
+                            <address class="footer__address-text">
+                                Sitio do Escamapadinho, Maxilhoeria Grande, 8500-148 Portimao, Portugal
+                            </address>
+                            <div id="map"></div>
+                        </div>
+                    </div>
+                    <div class="footer__bottom">
+                        <a class="footer__bottom-link" href="#">Design by Varvara Prokopchuk</a>
+                        <a class="footer__logo" href="#">
+                            <img class="footer__logo-img" src="./assets/img/footer-la.png" alt="logo">
+                        <a class="footer__bottom-link" href="#">Политика Конфиденциальности</a>
+                    </div>
+                </div>
+            </footer>
     
-            <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js">
-            </script>
-        <script src="./assets/js/main.js"></script>
+            <script src="./assets/js/main.js"></script>
     </body>
     
     </html>
